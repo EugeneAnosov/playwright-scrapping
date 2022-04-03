@@ -24,6 +24,7 @@
   "homepage": "https://github.com/EugeneAnosov/playwright-scrapping#readme",
   "dependencies": {
     "playwright": "^1.20.2",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "random-useragent": "^0.5.0"
   }
 }
