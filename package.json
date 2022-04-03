@@ -1,0 +1,29 @@
+{
+  "name": "playwright-scrapping",
+  "version": "1.0.0",
+  "description": "Web scrapping with playwright",
+  "main": "index.js",
+  "scripts": {
+    "scraper": "node scraper.ts",
+    "scraper:3": "for run in {1..3}; do node scraper.ts; done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EugeneAnosov/playwright-scrapping.git"
+  },
+  "keywords": [
+    "Web",
+    "scrapping",
+    "Playwright"
+  ],
+  "author": "EA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EugeneAnosov/playwright-scrapping/issues"
+  },
+  "homepage": "https://github.com/EugeneAnosov/playwright-scrapping#readme",
+  "dependencies": {
+    "playwright": "^1.20.2",
+    "prettier": "^2.6.2"
+  }
+}
